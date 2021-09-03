@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>720</width>
+    <height>415</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(39, 44, 54);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="btn_login">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>330</y>
+      <width>411</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>150</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	background-color: rgb(98, 114, 164);
+	color: rgb(200, 200, 200);
+	border-style: none;
+	border-radius: 10px;
+	text-align: center;
+}
+QPushButton:hover {
+	background-color: rgb(57, 65, 80);
+	border: 2px solid rgb(61, 70, 86);
+}
+QPushButton:pressed {	
+	background-color: rgb(35, 40, 49);
+	border: 2px solid rgb(43, 50, 61);
+}</string>
+    </property>
+    <property name="text">
+     <string>ENJOY THE PROCESS!</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../robot GUI ver2/icons/24x24/cil-https.png</normaloff>../../robot GUI ver2/icons/24x24/cil-https.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="plainTextEdit">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>701</width>
+      <height>311</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>0</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="toolTip">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPlainTextEdit {
+		background-color: rgb(39, 44, 54);
+    border: 2px solid rgb(64, 71, 88);
+	color: rgb(255, 255, 255);
+	border-radius: 5px;
+	padding: 10px;
+}
+QPlainTextEdit:hover {
+	border: 2px solid rgb(255, 255, 255);
+}
+QPlainTextEdit:focus {
+	border: 2px solid rgb(91, 101, 124);
+}</string>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+    <property name="plainText">
+     <string>This controlling GUI software designed by Audio Team-DRC lab by June 23th,2021. 11:14PM. The main objective of this project is to develop a system that is able to recognize the voice of a consumer and to control the robot movements with verbal instructions.
+This project is a part of our lastest research involved audio signal intelligent processing, the sound recognition system has been used with another words then tested.
+
+======================================================
+					      Created: Phung Hung Binh
+				            	                    Pham Viet Hoang
+					     Instructor: Dr.Dang Xuan Ba
+======================================================</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_credits">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>390</y>
+      <width>641</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(39, 44, 54);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>created by: Audio Intelligent Processing Team-DRC Lab</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_version">
+    <property name="geometry">
+     <rect>
+      <x>618</x>
+      <y>390</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>100</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(39, 44, 54);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>v3.0.0</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
