@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>832</width>
-    <height>536</height>
+    <width>791</width>
+    <height>438</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -47,9 +47,9 @@
       <widget class="QLabel" name="label_title">
        <property name="geometry">
         <rect>
-         <x>20</x>
-         <y>190</y>
-         <width>791</width>
+         <x>40</x>
+         <y>60</y>
+         <width>701</width>
          <height>111</height>
         </rect>
        </property>
@@ -65,7 +65,7 @@
         <string notr="true">color:  rgb(52, 59, 72);</string>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:20pt;&quot;&gt;ỨNG DỤNG NHẬN DIỆN GIỌNG NÓI TRONG &lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:20pt;&quot;&gt;ĐIỀU KHIỂN ROBOT 6 BẬC. &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:20pt;&quot;&gt;6-DOF CONTROLLER BY VOICE COMMAND&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -74,8 +74,8 @@
       <widget class="QLabel" name="label_description">
        <property name="geometry">
         <rect>
-         <x>20</x>
-         <y>310</y>
+         <x>0</x>
+         <y>180</y>
          <width>771</width>
          <height>41</height>
         </rect>
@@ -99,9 +99,9 @@
       <widget class="QProgressBar" name="progressBar">
        <property name="geometry">
         <rect>
-         <x>20</x>
-         <y>360</y>
-         <width>771</width>
+         <x>40</x>
+         <y>230</y>
+         <width>701</width>
          <height>20</height>
         </rect>
        </property>
@@ -126,8 +126,8 @@ QProgressBar::chunk{
       <widget class="QLabel" name="label_credits">
        <property name="geometry">
         <rect>
-         <x>470</x>
-         <y>480</y>
+         <x>420</x>
+         <y>350</y>
          <width>321</width>
          <height>31</height>
         </rect>
@@ -181,7 +181,7 @@ color: rgb(0, 0, 0)</string>
        <property name="geometry">
         <rect>
          <x>10</x>
-         <y>470</y>
+         <y>340</y>
          <width>55</width>
          <height>16</height>
         </rect>
@@ -197,7 +197,7 @@ color: rgb(0, 0, 0)</string>
        <property name="geometry">
         <rect>
          <x>10</x>
-         <y>490</y>
+         <y>360</y>
          <width>121</width>
          <height>16</height>
         </rect>
@@ -212,8 +212,8 @@ color: rgb(0, 0, 0)</string>
       <widget class="QPushButton" name="btn_load">
        <property name="geometry">
         <rect>
-         <x>20</x>
-         <y>400</y>
+         <x>0</x>
+         <y>270</y>
          <width>771</width>
          <height>28</height>
         </rect>
@@ -231,27 +231,11 @@ color: rgb(98, 114, 164);</string>
         <string>Loading...</string>
        </property>
       </widget>
-      <widget class="QLabel" name="label">
-       <property name="geometry">
-        <rect>
-         <x>-30</x>
-         <y>30</y>
-         <width>661</width>
-         <height>141</height>
-        </rect>
-       </property>
-       <property name="text">
-        <string/>
-       </property>
-       <property name="pixmap">
-        <pixmap>logo.png</pixmap>
-       </property>
-      </widget>
       <widget class="QLabel" name="label_credits_3">
        <property name="geometry">
         <rect>
-         <x>480</x>
-         <y>450</y>
+         <x>430</x>
+         <y>320</y>
          <width>311</width>
          <height>31</height>
         </rect>
@@ -277,8 +261,8 @@ color: rgb(0, 0, 0)</string>
       <widget class="QLabel" name="label_credits_4">
        <property name="geometry">
         <rect>
-         <x>480</x>
-         <y>430</y>
+         <x>430</x>
+         <y>300</y>
          <width>311</width>
          <height>31</height>
         </rect>
@@ -304,8 +288,8 @@ color: rgb(0, 0, 0)</string>
       <widget class="QLabel" name="label_credits_5">
        <property name="geometry">
         <rect>
-         <x>480</x>
-         <y>410</y>
+         <x>430</x>
+         <y>280</y>
          <width>311</width>
          <height>31</height>
         </rect>
@@ -326,25 +310,6 @@ color: rgb(0, 0, 0)</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-       </property>
-      </widget>
-      <widget class="QLabel" name="label_2">
-       <property name="geometry">
-        <rect>
-         <x>670</x>
-         <y>50</y>
-         <width>111</width>
-         <height>111</height>
-        </rect>
-       </property>
-       <property name="text">
-        <string/>
-       </property>
-       <property name="pixmap">
-        <pixmap>new.png</pixmap>
-       </property>
-       <property name="scaledContents">
-        <bool>true</bool>
        </property>
       </widget>
      </widget>

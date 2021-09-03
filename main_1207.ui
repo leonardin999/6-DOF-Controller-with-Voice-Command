@@ -21425,9 +21425,9 @@ QPushButton:pressed {
   </widget>
  </widget>
  <resources>
-  <include location="../reference1 file/files.qrc"/>
-  <include location="../reference2 file/files.qrc"/>
-  <include location="../../Seminar project/robot GUI design/Simple_PySide_Base-master/files.qrc"/>
+  <include location="files.qrc"/>
+  <include location="files.qrc"/>
+  <include location="files.qrc"/>
  </resources>
  <connections/>
 </ui>
